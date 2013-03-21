@@ -2,10 +2,10 @@
 
 class PostcodeAPI
 {
-  /*
-		Get your API key at: http://www.postcodeapi.nu/
-		API Docs: http://api.postcodeapi.nu/docs/
-	 */
+ 	/*
+	* Get your API key at: http://www.postcodeapi.nu/
+	* API Docs: http://api.postcodeapi.nu/docs/
+	*/
 	private $API_URL = 'http://api.postcodeapi.nu/';
 	private $API_KEY = 'GET_YOUR_OWN';
 
