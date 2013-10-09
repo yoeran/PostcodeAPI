@@ -1,4 +1,4 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php
 
 class PostcodeAPI
 {
@@ -103,8 +103,8 @@ class PostcodeAPI
      */
     private function fixPC( $pc )
     {
-		if( is_numeric($pc) && strlen($pc)==4 ){ $pc .= 'AA'; }
-		return $pc;
+	if( is_numeric($pc) && strlen($pc)==4 ){ $pc .= 'AA'; }
+	return $pc;
     }
 
 }
